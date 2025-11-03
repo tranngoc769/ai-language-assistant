@@ -47,7 +47,7 @@ const App: React.FC = () => {
                             onClick={() => handleSetMode(AppMode.Translate)}
                         />
                         <TabButton
-                            label="Sửa Ngữ pháp"
+                            label="Sửa ngữ pháp"
                             icon={<GrammarIcon />}
                             isActive={mode === AppMode.Grammar}
                             onClick={() => handleSetMode(AppMode.Grammar)}
