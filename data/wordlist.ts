@@ -1,0 +1,9 @@
+export const wordList: string[] = [
+  'a', 'abandon', 'ability', 'able', 'about', 'above', 'abroad', 'absence', 'absolute', 'absolutely', 
+  'absorb', 'abuse', 'academic', 'accept', 'access', 'accident', 'accompany', 'accomplish', 'according', 
+  'account', 'accurate', 'accuse', 'achieve', 'achievement', 'acid', 'acknowledge', 'acquire', 'across', 
+  'act', 'action', 'active', 'activist', 'activity', 'actor', 'actress', 'actual', 'actually', 'ad', 
+  'adapt', 'add', 'addition', 'additional', 'address', 'adequate', 'adjust', 'adjustment', 'administration', 
+  'administrator', 'admire', 'admission', 'admit', 'adolescent', 'adopt', 'adult', 'advance', 'advanced', 
+  'advantage', 'adventure', 'advertising', 'advice', 'advise'
+];

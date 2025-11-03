@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Language Assistant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Add Babel Standalone for in-browser JSX/TSX transpilation -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0",
+    "marked": "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js"
+  }
+}
+</script>
+  <style>
+    .result-content h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+      color: #1e293b; /* slate-800 */
+      border-bottom: 1px solid #e2e8f0; /* slate-200 */
+      padding-bottom: 0.25rem;
+    }
+    .result-content h3:first-child {
+      margin-top: 0;
+    }
+    .result-content p {
+      margin-bottom: 0.5rem;
+    }
+    .result-content strong {
+      color: #4f46e5; /* indigo-600 */
+    }
+    .result-content ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .result-content li {
+      margin-bottom: 0.25rem;
+    }
+  </style>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-900 text-slate-800">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
